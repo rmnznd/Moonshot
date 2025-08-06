@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FEFBD03C2E41E61A0070EE2F /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = FEFBD03B2E41E61A0070EE2F /* missions.json */; };
+		FEFBD03D2E41E61A0070EE2F /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = FEFBD03A2E41E61A0070EE2F /* astronauts.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FED174292E408F6700B0DD2A /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFBD03A2E41E61A0070EE2F /* astronauts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		FEFBD03B2E41E61A0070EE2F /* missions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -33,6 +40,8 @@
 			isa = PBXGroup;
 			children = (
 				FED1742B2E408F6700B0DD2A /* Moonshot */,
+				FEFBD03A2E41E61A0070EE2F /* astronauts.json */,
+				FEFBD03B2E41E61A0070EE2F /* missions.json */,
 				FED1742A2E408F6700B0DD2A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEFBD03C2E41E61A0070EE2F /* missions.json in Resources */,
+				FEFBD03D2E41E61A0070EE2F /* astronauts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
